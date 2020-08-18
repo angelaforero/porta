@@ -1,0 +1,850 @@
+.movistarec-portabilidad-web {
+}
+.portlet-body,
+.portlet-content-container,
+.portlet-content,
+.portlet,
+.portlet-boundary_com_vass_tuenti_tuec_freemium_view_web_TuentiTuecFreemiumViewWebPortlet_,
+.portlet-column-content,
+.portlet-column,
+.portlet-layout,
+.columns-1,
+#content,
+.container-fluid,
+#senna_surface1-default,
+#senna_surface1-screen_1,
+#senna_surface1-screen_2,
+#senna_surface1-screen_3,
+#senna_surface1-screen_4,
+#senna_surface1-screen_5,
+#senna_surface1-screen_6 {
+	height: 100% !important;
+	padding: 0px !important;
+}
+
+.portlet-layout .portlet-header {
+    margin-bottom: 0rem !important;
+}
+
+.icon-azul-portabilidad-movistar:before {
+	color: #019DF4 !important;
+}
+
+.icon-azul-bg-portabilidad-movistar {
+	color: #FFFFFF  !important;
+	background-color: #019DF4 !important;
+}
+
+.tool {
+	height: 16px !important;
+    width: 16px !important;
+}
+
+
+ 
+.radio-class {
+	width: 16px;
+	height: 16px;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	border: 2px solid #B6B7B7 !important;
+	opacity: 1;
+}
+
+.radio-class:checked {
+	width: 20px;
+	height: 20px;
+	background: #019DF4 0% 0% no-repeat padding-box !important;
+	border: 2px solid #019DF4 !important;
+	opacity: 1;
+}
+
+.check-class {
+	width: 20px;
+	height: 20px;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	border: 2px solid #B6B7B7 !important;
+	opacity: 1;
+}
+
+.check-class::after{
+	width: 20px;
+	height: 20px;
+	background: #019DF4 0% 0% no-repeat padding-box !important;
+	border: 2px solid #019DF4 !important;
+	opacity: 1;
+}
+
+.check-text {
+	padding-left:8px;
+}
+
+.terms-text{
+	text-align: left;
+	letter-spacing: 0px;
+	color: #86888c;
+	opacity: 1;
+	font-size: 16px;
+}
+
+.terms-box {
+	padding-top:20px; 
+	padding-bottom:40px;
+}
+//css eventos
+
+input:focus {
+	background: #ffffff 0% 0% no-repeat padding-box !important;
+	border: 1px solid #50535a !important;
+}
+
+form.submitted input:invalid {
+	background: #FFFFFF 0% 0% no-repeat padding-box !important;
+	border: 1px solid #E63780 !important;
+}
+
+.invalid {
+	width: 345px !important;
+	height: 48px !important;
+	background: #FFFFFF 0% 0% no-repeat padding-box !important;
+	border: 1px solid #E63780 !important;
+	border-radius: 4px !important;
+}
+
+.icon-color-magenta {
+	color:#E63780 !important;
+}
+
+.img-lateral {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.desk {
+	visibility: visible;
+}
+
+.lateral {
+	background-color: #019df4;
+	height: 100%;
+	width: 450px;
+}
+
+.content-lateral {
+	height: 100%;
+	width: 100%;
+}
+
+.content {
+	padding: 2% 2%;
+}
+
+.space {
+	padding-top: 10%;
+	padding-right: 10%;
+}
+
+.intermediate-space {
+	margin-bottom: 20px;
+}
+
+.row-separation {
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.tittle {
+	font-family: Telefonica-Light;
+	text-align: left;
+	letter-spacing: 0px;
+	color: #0b2739;
+	opacity: 1;
+	font-size: 32px;
+	margin-top: 22px;
+	margin-bottom: 30px;
+}
+
+.subtittle {
+	text-align: left;
+	letter-spacing: 0px;
+	color: #86888c;
+	opacity: 1;
+	font-size: 16px;
+	margin-bottom: 30px;
+}
+
+.name-field {
+	top: 185px;
+	left: 15px;
+	width: 345px;
+	height: 20px;
+	text-align: left;
+	letter-spacing: 0px;
+	color: #50535a;
+	opacity: 1;
+}
+
+.name-field-validation {
+	text-align: left;
+	letter-spacing: 0px;
+	color: #e63780;
+	opacity: 1;
+	font-size: 14px;
+}
+
+.field-input-form {
+	top: 215px;
+	left: 15px;
+	width: 345px;
+	height: 48px;
+	background: #f5f5f5 0% 0% no-repeat padding-box;
+	border-radius: 4px;
+	opacity: 1;
+}
+
+.cancel-button {
+	width: 345px;
+	height: 50px;
+	background: #ffffff 0% 0% no-repeat padding-box;
+	border: 2px solid #019df4;
+	border-radius: 25px;
+	opacity: 1;
+	text-align: center;
+	letter-spacing: 0px;
+	color: #019df4;
+}
+
+.continue-button {
+	color: #ffffff !important;
+	width: 345px;
+	height: 50px;
+	background: #019df4 0% 0% no-repeat padding-box;
+	border-radius: 25px;
+	border-color: transparent;
+	opacity: 1;
+}
+
+.continue-button:disabled {
+	color: #ffffff;
+	top: 313px;
+	left: 15px;
+	width: 345px;
+	height: 50px;
+	background: #019df4 0% 0% no-repeat padding-box;
+	border-radius: 25px;
+	border-color: transparent;
+	opacity: 0.5;
+}
+
+.return-style {
+	width: 42px;
+	height: 20px;
+	text-align: left;
+	letter-spacing: 0px;
+	color: #019df4;
+	opacity: 1;
+}
+
+.column-box-style {
+	width: 130px;
+	height: 130px;
+	background: #ffffff 0% 0% no-repeat padding-box;
+	border: 1px solid #d3d4d3;
+	border-radius: 16px;
+	opacity: 1;
+	margin: 1%;
+	padding: 1%;
+	text-align: center;
+}
+
+.header-band {
+	background-color: #f5f5f5;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 100%;
+}
+
+.header-text {
+	padding-left: 95px;
+	width: 230px;
+	height: 20px;
+	text-align: left;
+	letter-spacing: 0px;
+	color: #50535a;
+	opacity: 1;
+}
+
+.content-space {
+	padding-left: 95px;
+}
+
+.padding-0 {
+	padding: 0 0 0 0;
+}
+
+//Estilo para barra de navegacion inferior
+
+.flex-container {
+	// quitar en el cambio del footer
+	display: flex;
+	flex-wrap: nowrap;
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+
+.footer-container {
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-color: white;
+}
+
+#general-content-container {
+	position: relative;
+	width: 100%;
+}
+
+.cancel {
+	background-color: #f5f5f5;
+	width: 16%;
+	padding-bottom: 14px;
+}
+
+.continue {
+	background-color: #019df4;
+	width: 16%;
+	padding-top: 14px;
+	padding-bottom: 14px;
+}
+
+.cancel-text {
+	text-align: left;
+	letter-spacing: 0px;
+	color: #019df4;
+	opacity: 1;
+	font-size: 16px;
+}
+
+.continue-text {
+	text-align: right;
+	letter-spacing: 0px;
+	color: #ffffff;
+	opacity: 1;
+	font-size: 16px;
+}
+
+.bullet {
+	padding-top: 18px;
+	padding-bottom: 18px;
+}
+
+.circle-size {
+	margin-left: 8px;
+	margin-right: 8px;
+	height: 12px;
+	width: 12px;
+}
+
+.circle-size-selected {
+	margin-left: 8px;
+	margin-right: 8px;
+	height: 12px;
+	width: 12px;
+	border: 2px solid #00a9e0;
+}
+
+//botones de footer en navegacion desktop
+.cancel-btn-squater {
+	width: 160px;
+	height: 48px;
+	background: #f5f5f5 0% 0% no-repeat padding-box;
+	opacity: 1;
+	font-size: 16px;
+	letter-spacing: 0px;
+	color: #019df4;
+	opacity: 1;
+	border: none;
+}
+.c-text {
+	padding-bottom: 14px;
+}
+
+.continue-btn-squater {
+	text-align: right;
+	letter-spacing: 0px;
+	color: #ffffff;
+	opacity: 1;
+	font-size: 16px;
+	width: 160px;
+	height: 48px;
+	background: #019df4 0% 0% no-repeat padding-box;
+	opacity: 1;
+	border: none;
+}
+//Estilos para las cajas de customer type en desktop
+.box-customer-type {
+	top: 340px;
+	left: 545px;
+	width: 350px;
+	height: 90px;
+	background: #ffffff 0% 0% no-repeat padding-box;
+	border: 1px solid #d3d4d3;
+	border-radius: 16px;
+	opacity: 1;
+	margin: 1%;
+}
+
+.box-radio-btn {
+	width: 16px;
+	height: 16px;
+	background: #ffffff 0% 0% no-repeat padding-box;
+	border: 2px solid #b6b7b7;
+	opacity: 1;
+	margin-top: 16px;
+}
+
+.box-icon {
+	margin-top: 21px;
+	margin-bottom: 23px;
+}
+
+.box-text {
+	padding-left: 24px;
+	padding-top: 16px;
+}
+
+.box-text-subtittle {
+	padding-left: 137px;
+}
+
+.box-tittle {
+	font-size: 24px;
+	text-align: left;
+	letter-spacing: 0px;
+	color: #50535a;
+	opacity: 1;
+}
+
+.box-subtittle {
+	font-size: 16px;
+	text-align: left;
+	letter-spacing: 0px;
+	color: #86888c;
+	opacity: 1;
+	width: 190px;
+	height: 24px;
+}
+
+.box-location{
+	display: block !important; 
+	position: relative !important;
+}
+
+.box-text-align {
+	padding-bottom:16px !important; 
+	padding-top:16px
+}
+
+
+.mobile {
+	display: none;
+}
+
+//scroll para pantalla de enviod el chip
+.scrollable {
+	height: 655px;
+	overflow-y: scroll;
+}
+
+.digit {
+	background: #f5f5f5 0% 0% no-repeat padding-box;
+	border-radius: 4px;
+	opacity: 1;
+	width: 74px;
+	height: 100px;
+	margin-right: 18px;
+	font-size: 32px;
+	text-align: center;
+}
+
+.valid-digit {
+	background: #FFFFFF 0% 0% no-repeat padding-box !important;
+	border: 1px solid #5CB615 !important;
+	border-radius: 4px !important;
+	width: 74px;
+	height: 100px;	
+	margin-right: 10px;
+	font-size: 32px;
+	text-align: center;
+}
+
+.digit:focus {
+	background: #ffffff 0% 0% no-repeat padding-box;
+	border: 1px solid #5cb615;
+	border-radius: 4px;
+	opacity: 1;
+	width: 74px;
+	height: 100px;
+	margin-right: 18px;
+	font-size: 32px;
+}
+
+.digit-box {
+	margin-bottom: 25px;
+	margin-top: 30px;
+}
+
+.counter {
+	text-align: right;
+	letter-spacing: 0px;
+	color: #019df4;
+	opacity: 1;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+
+.counter-box {
+	width:348px;
+	padding-top: 25px;
+	padding-bottom: 35px;
+}
+
+//estilos par aconfirmacion de compra
+
+.confirm-text-1 {
+	font-family: Telefonica-Light;
+	font-size: 24px;
+	text-align: left;
+	letter-spacing: 0px;
+	color: #0b2739;
+	opacity: 1;
+	margin-bottom: 10px;
+}
+
+.confirm-text-2 {
+	font-family: Telefonica-Regular;
+	font-size: 36px;
+	text-align: left;
+	letter-spacing: 0px;
+	color: #0b2739;
+	opacity: 1;
+}
+
+.confirm-text-3 {
+	font-family: Telefonica-Regular;
+	font-size: 12px;
+	text-align: left;
+	letter-spacing: 0px;
+	color: #0b2739;
+	opacity: 1;
+}
+
+.confirm-text-4 {
+	font-family: Telefonica-Regular;
+	font-size: 16px;
+	text-align: left;
+	letter-spacing: 0px;
+	color: #019df4;
+	opacity: 1;
+}
+
+.confirm-text-5 {
+	font-family: Telefonica-Regular;
+	font-size: 16px;
+	text-align: left;
+	letter-spacing: 0px;
+	color: #50535a;
+	opacity: 1;
+}
+
+.confirm-text-6 {
+	font-family: Telefonica-Bold;
+	font-size: 16px;
+	text-align: left;
+	letter-spacing: 0px;
+	color: #50535a;
+	opacity: 1;
+}
+
+.confirm-text-7 {
+	font-family: Telefonica-Regular;
+	font-size: 20px;
+	text-align: right;
+	letter-spacing: 0px;
+	color: #0b2739;
+	opacity: 1;
+}
+
+.text-link {
+	font-size: 16px;
+	color: #019df4;
+}
+.plan {
+	background-color: #e5f5fd;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+.whatsapp-button {
+	width: 174px;
+	height: 40px;
+	background: #ffffff 0% 0% no-repeat padding-box;
+	border: 1px solid #5cb615;
+	border-radius: 25px;
+	opacity: 1;
+	color: #5cb615;
+	font-size: 16px;
+	text-align: center;
+}
+
+.border-welcome-box {
+	border-bottom: 1px solid #d3d4d3;
+}
+
+.movistar-color-blue {
+	background-color: #019df4;
+}
+
+@media only screen and (max-width: 768px) {
+	.desk {
+		display: none;
+	}
+
+	.mobile {
+		display: block;
+	}
+
+	input:focus {
+		background: #ffffff 0% 0% no-repeat padding-box !important;
+		border: 1px solid #50535a !important;
+	}
+
+	.header-mobile {
+		width: 100%;
+		display: table;
+		padding: 0px 7px 10px 7px;
+		box-sizing: border-box;
+	}
+
+	.header-mobile-flecha {
+		width: 16px;
+	}
+
+	.header-mobile-cerrar {
+		width: 15px;
+	}
+
+	.tittle {
+		font-family: Telefonica-Light;
+		text-align: left;
+		letter-spacing: 0px;
+		color: #0b2739;
+		opacity: 1;
+		font-size: 24px;
+		margin-top: 10px;
+		margin-bottom: 30px;
+	}
+
+	.subtittle {
+		text-align: left;
+		letter-spacing: 0px;
+		color: #86888c;
+		opacity: 1;
+		font-size: 16px;
+		margin-bottom: 30px;
+	}
+
+	.content-space {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.name-field {
+		top: 185px;
+		left: 15px;
+		width: 345px;
+		height: 20px;
+		text-align: left;
+		letter-spacing: 0px;
+		color: #50535a;
+		opacity: 1;
+	}
+
+	.name-field-validation {
+		text-align: left;
+		letter-spacing: 0px;
+		color: #e63780;
+		opacity: 1;
+	}
+
+	.field-input-form {
+		top: 215px;
+		left: 15px;
+		width: 345px;
+		height: 48px;
+		background: #f5f5f5 0% 0% no-repeat padding-box;
+		border-radius: 4px;
+		opacity: 1;
+	}
+
+	.field-input-form:invalid {
+		top: 215px;
+		left: 15px;
+		width: 345px;
+		height: 48px;
+		background: #ffffff 0% 0% no-repeat padding-box;
+		border: 1px solid #e63780;
+		border-radius: 4px;
+		opacity: 1;
+	}
+
+	.field-select-form {
+		color: #b6b7b7;
+		width: 345px;
+		height: 48px;
+		border-radius: 4px;
+		opacity: 1;
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		appearance: none;
+		background: #f5f5f5 url("../images/down-arrow.svg") no-repeat right 20px center;
+		background-size: 10px 6px;
+		border: 1px solid #F5F5F5;
+		padding-left: 20px;
+	}
+
+	.field-select-form:focus {
+		color: #50535A !important;
+		width: 345px;
+		height: 48px;
+		border-radius: 4px;
+		opacity: 1;
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		appearance: none;
+		background: #ffffff url("../images/down-arrow.svg") no-repeat right 20px center !important;
+		background-size: 10px 6px !important;
+		border: 1px solid #019df4 !important;
+	}
+
+	select option {
+		background: #FFFFFF 0% 0% no-repeat padding-box;
+		box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+		border: 1px solid #E9EAE8;
+		border-radius: 4px;
+		opacity: 1;
+		padding-left: 11px !important;
+	  }
+
+	.continue-button {
+		color: #ffffff !important;
+		top: 313px;
+		left: 15px;
+		width: 345px;
+		height: 50px;
+		background: #019df4 0% 0% no-repeat padding-box;
+		border-radius: 25px;
+		border-color: transparent;
+		opacity: 1;
+	}
+
+	.continue-button:disabled {
+		color: #ffffff;
+		top: 313px;
+		left: 15px;
+		width: 345px;
+		height: 50px;
+		background: #019df4 0% 0% no-repeat padding-box;
+		border-radius: 25px;
+		border-color: transparent;
+		opacity: 0.5;
+	}
+
+	.column-box-style-custom{
+		width: 158px;
+		height: 200px;
+		background: #ffffff 0% 0% no-repeat padding-box;
+		border: 1px solid #d3d4d3;
+		border-radius: 16px;
+		opacity: 1;
+		margin: 1%;
+		padding: 1%;
+		text-align: center;
+	}
+	
+
+	.column-box-title {
+		font-size: 20px;
+		text-align: center;
+		letter-spacing: 0px;
+		color: #50535a;
+		opacity: 1;		
+	}
+
+	//clases para digitos de NIP
+	.digit {
+		background: #f5f5f5 0% 0% no-repeat padding-box;
+		border-radius: 4px;
+		opacity: 1;
+		width: 56px;
+		height: 76px;
+		margin-right: 10px;
+		font-size: 24px;
+		text-align: center;
+	}
+
+	.valid-digit {
+		background: #FFFFFF 0% 0% no-repeat padding-box !important;
+		border: 1px solid #5CB615 !important;
+		border-radius: 4px !important;
+		width: 56px;
+		height: 76px;
+		margin-right: 10px;
+		font-size: 24px;
+		text-align: center;
+	}
+	.digit:focus {
+		background: #ffffff 0% 0% no-repeat padding-box;
+		border: 1px solid #5cb615;
+		border-radius: 4px;
+		opacity: 1;
+		width: 56px;
+		height: 76px;
+		margin-right: 10px;
+		font-size: 24px;
+	}
+
+	.digit-box {
+		margin-bottom: 35px;
+		margin-top: 50px;
+	}
+
+	.counter {
+		text-align: right;
+		letter-spacing: 0px;
+		color: #019df4;
+		opacity: 1;
+		font-size: 16px;
+		font-weight: bold;
+	}
+
+	.counter-box {
+		width:254px;
+		padding-top: 35px;
+		padding-bottom: 181px;
+	}
+
+	.plan {
+		background-color: #e5f5fd;
+		margin-top: 30px;
+		margin-bottom: 20px;
+		padding-top: 10px;
+		padding-bottom: 20px;
+	}
+}

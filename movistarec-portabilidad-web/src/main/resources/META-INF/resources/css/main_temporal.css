@@ -1,0 +1,1497 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+html, body {
+	margin: 0px;
+	/*height: 100%;*/
+}
+
+body {
+/* 	background-color: #e2e2e2; */
+}
+
+/*Inicio estilos pantalla detalle proceso*/
+.base_boton_z1 {
+	width: 94%;
+	text-align: center;
+	display: table;
+	position: absolute;
+	bottom: 0;
+}
+
+.div1 {
+	width: 20px;
+	height: 30px;
+	background-color: blue;
+}
+
+.titulo_principal {
+	color: #0B2739;
+	font-size: 24px;
+	font-family: Telefonica-Light;
+	letter-spacing: 0px;
+	opacity: 1;
+}
+
+.imagen {
+/* 	width: 7%; */
+	float: left;
+	display: table;
+}
+
+.base_texto {
+	width: 60%;
+	display: table;
+	float: left;
+}
+
+.imagen_aprobado {
+	margin-top: 13px;
+}
+
+.texto {
+	margin: 0px;
+	padding: 10px 9px;
+}
+
+.instrucciones {
+	width: 100%;
+	display: table;
+	margin-top: 0%;
+/*     margin-top: 10px; */
+}
+
+button.boton {
+	width: 330px;
+	height: 50px;
+	font-size: 17px;
+	color: #fff;
+	border: none;
+	border-radius: 25px;
+	position: relative;
+	bottom: 0px;
+	background-color: #019DF4;
+	margin-bottom: 14px;
+	/* left: 20px; */
+}
+
+button.boton.cancelar {
+    border: 2px solid #019DF4;
+    background-color: #fff;
+    color: #019DF4;
+    margin-right: 20px;
+}
+
+
+.contenedor_principal {
+	width: 375px;
+	background-color: #fff;
+	margin: auto;
+	padding: 20px 12px;
+	box-sizing: border-box;
+	position: relative;
+	height: 630px;
+}
+
+.texto {
+	margin: 0px;
+	padding: 10px 9px;
+	color: #86888C;
+	font-size: 16px;
+}
+
+.flecha {
+	float: left;
+	width: 18px;
+}
+
+img.cerrar {
+	float: right;
+	width: 19px;
+}
+
+.header {
+	/*width: 100%;
+	display: table;
+	padding: 0px 7px 10px 7px;
+	box-sizing: border-box;*/
+	width: 100%;
+    display: table;
+    padding: 0px 7px 10px 0px;
+    box-sizing: border-box;
+}
+/*Fin estilos pantalla detalle proceso*/
+
+/*Inicio estilos pantalla camara*/
+.centrar_con_flex {
+	display: flex;
+	justify-content: center;
+}
+.ajustar-alto {
+	border: 1px solid #E9EAE8; 
+	height:100%;
+}
+.ocultar-canvas {
+	display: none;
+}
+.border-camara-anverso{
+	width: 100%;
+	border-radius: 8px;
+    border: 2px solid #E9EAE8;
+    opacity: 1;
+    padding: 3px 3px 3px 3px;
+    margin-bottom: 10%;
+}
+.group_border_camara {
+	margin-bottom: 5%;
+	padding: 0px 6%;
+}
+.canvas-captura-imagen-frontal {
+	width: 100%;
+	height: auto;
+	border-radius: 8px;
+}
+.canvas-captura-imagen-posterior {
+	width: 100%;
+	height: auto;
+	border-radius: 8px;
+}
+.border-camara-left-anverso {
+	width: 100px;
+	height: 63px;
+	border: 2px solid #E9EAE8;
+	border-radius: 8px;
+	opacity: 1;
+	float: right;
+	/*background-image: url(https://www.registraduria.gov.co/IMG/jpg/Cedula_atras2016.jpg);*/
+    background-size: 100%;
+}
+.border-camara-right-anverso {
+	width: 100px;
+	height: 63px;
+	border: 2px solid #E9EAE8;
+	border-radius: 8px;
+	opacity: 1;
+/* 	background-image: url(https://www.registraduria.gov.co/IMG/jpg/cedula_frontal.jpg); */
+    background-size: 100%;
+}
+.group_text {
+    padding: 0px 10%;
+    margin-bottom: 5%;
+}
+.text-camara-frontal {
+	float: right;
+	font-family: SFProDisplay-Regular;
+	font-size: 14px;
+	color: #fff;
+}
+.text-camara-posterior {
+	font-family: SFProDisplay-Regular;
+	font-size: 14px;
+	color: #fff;
+}
+.hijo {
+	width: 56px;
+	height: 56px;	
+	border: 2px solid #E9EAE8; 
+	border-radius: 100%;
+}
+.boton-camara {
+	width: 40px;
+	height: 40px;
+	border: 2px solid #E9EAE8;
+	border-radius: 100%;
+	margin: 6px auto;
+    background-color: #fff;
+}
+.msgToast-anverso {
+	width: 240px;
+	height: 45px;
+	background: #00000066 0% 0% no-repeat padding-box;
+	border-radius: 25px;
+	opacity: 1;
+	backdrop-filter: blur(10px);
+	font-family: SFProDisplay-Regular;
+	font-size: 14px;
+	color: #fff;
+	padding: 1% 5%;
+    text-align: center;
+    margin-bottom: 10%;
+}
+.fondo-camara-anverso {
+	background: #0000004D 0% 0% no-repeat padding-box;
+	background-size: 100%;
+	opacity: 0.83;
+}
+.ajustar-top {
+	margin:10% 0%;	
+}
+/*Fin estilos pantalla camara*/
+
+/*Inicio estilos pantalla camara confirmar anverso*/
+.border-camara-confirmar-anverso {
+	width: 100%;
+    height: 200px;
+	border-radius: 8px;
+    border: 2px solid #0B2739;
+    opacity: 1;
+    padding: 3px 3px 3px 3px;
+    margin-bottom: 10%;
+    background-image: url(https://www.registraduria.gov.co/IMG/jpg/cedula_frontal.jpg);
+    background-size: 100%;
+}
+.text-camara-anverso {
+	font-family: Telefonica-Regular;
+	font-size: 16px;
+	color: #86888C;
+	letter-spacing: 0px;
+	text-align: center;
+	margin-bottom: 15%;
+}
+.contenedor-botones-anverso {
+	width: 100%;
+	display: table;
+	text-align: center;
+/* 	margin-top: 27px; */
+}
+.boton-confirmar-foto {
+	width: 100%;
+	height: 50px;
+	font-size: 18px;
+	color: #fff;
+	border: 2px solid #019DF4;
+	border-radius: 20px;
+	position: relative;
+	bottom: 0px;
+	background-color: #019DF4;
+	margin-bottom: 14px;
+	top: 0;
+	cursor: pointer;
+}
+.boton-volver-tomar {
+	width: 100%;
+	height: 50px;
+	font-size: 18px;
+	color: #019DF4;
+	border: 2px solid #019DF4;
+	border-radius: 20px;
+	position: relative;
+	bottom: 0px;
+	background-color: #ffffff;
+	margin-bottom: 14px;
+	top: 0;
+	cursor: pointer;
+}
+.boton-confirmar-foto:hover {
+	background-color: #019DF4;
+	cursor: pointer;
+}
+.ajustar-top-bottom {
+	font-family: Telefonica-Regular;
+	font-size: 24px;
+	color: #0B2739;
+	letter-spacing: 0px;
+	margin-top: 15%;
+	margin-bottom: 15%;
+}
+/*Fin estilos pantalla camara confirmar anverso*/
+
+/*Inicio estilos pantalla camara confirmar reverso*/
+.border-camara-confirmar-reverso {
+	width: 100%;
+    height: 200px;
+	border-radius: 8px;
+    border: 2px solid #0B2739;
+    opacity: 1;
+    padding: 3px 3px 3px 3px;
+    margin-bottom: 10%;
+    background-image: url(https://www.registraduria.gov.co/IMG/jpg/Cedula_atras2016.jpg);
+    background-size: 100%;
+}
+/*Fin estilos pantalla camara confirmar reverso*/
+
+/*Inicio estilos pantalla camara reverso*/
+.border-camara-reverso {
+	width: 100%;
+	border-radius: 8px;
+    border: 2px solid #E9EAE8;
+    opacity: 1;
+    padding: 3px 3px 3px 3px;
+    margin-bottom: 10%;
+}
+.ajustar-top-bottom-reverso {
+	font-family: Telefonica-Regular;
+	font-size: 14px;
+	color: #0B2739;
+	letter-spacing: 0px;
+	margin-top: 15%;
+	margin-bottom: 15%;
+}
+.msgToast-reverso {
+	width: 240px;
+	height: 45px;
+	background: #00000066 0% 0% no-repeat padding-box;
+	border-radius: 25px;
+	opacity: 1;
+	backdrop-filter: blur(10px);
+	font-family: SFProDisplay-Regular;
+	font-size: 14px;
+	color: #fff;
+	padding: 1% 5%;
+    text-align: center;
+    margin-bottom: 10%;
+}
+.fondo-camara-reverso {
+	background: #0000004D 0% 0% no-repeat padding-box;
+	background-size: 100%;
+	opacity: 0.83;
+}
+.border-camara-left-reverso {
+	width: 100px;
+	height: 63px;
+	border: 2px solid #E9EAE8;
+	border-radius: 8px;
+	opacity: 1;
+	float: right;
+	/*background-image: url(https://www.registraduria.gov.co/IMG/jpg/Cedula_atras2016.jpg);*/
+    background-size: 100%;
+}
+.border-camara-right-reverso {
+	width: 100px;
+	height: 63px;
+	border: 2px solid #E9EAE8;
+	border-radius: 8px;
+	opacity: 1;
+	background-image: url(https://www.registraduria.gov.co/IMG/jpg/cedula_frontal.jpg);
+    background-size: 100%;
+}
+/*Fin estilos pantalla camara reverso*/
+
+/*Inicio estilos pantalla aviso foto c�dula*/
+.contenido-camara-aviso {
+	width: 100%;
+	display: table;
+	text-align: center;
+	margin-top: 30%;
+}
+.titulo-15 {
+	margin-top: 30%;
+	font-size: 24px;
+	margin-bottom: 9px;
+	font-family: Telefonica-Light;
+	letter-spacing: 0px;
+	opacity: 1;
+}
+
+.texto-15 {
+	font-size: 16px;
+	color: #86888C;
+	line-height: 28px;
+	font-family: Telefonica-Light;
+	letter-spacing: 0px;
+	opacity: 1;
+}
+.contenedor-botones-aviso-cedula {
+	width: 100%;
+	display: table;
+	text-align: center;
+/* 	margin-top: 27px; */
+}
+.boton-continuar-aviso {
+	width: 100%;
+	height: 50px;
+	font-size: 18px;
+	color: #fff;
+	border: 2px solid #019DF4;
+	border-radius: 20px;
+	position: relative;
+	bottom: 0px;
+	background-color: #019DF4;
+	margin-bottom: 14px;
+	top: 0;
+	cursor: pointer;
+}
+.boton-omitir-aviso {
+	width: 100%;
+	height: 50px;
+	font-size: 18px;
+	color: #019DF4;
+	border: 2px solid #019DF4;
+	border-radius: 20px;
+	position: relative;
+	bottom: 0px;
+	background-color: #ffffff;
+	margin-bottom: 14px;
+	top: 0;
+	cursor: pointer;
+}
+.boton-continuar-aviso:hover {
+	background-color: #019DF4;
+	cursor: pointer;
+}
+/*Fin estilos pantalla aviso foto c�dula*/
+
+/*Inicio estilos desktop pantalla detalle proceso*/
+.desk {
+ 	visibility: visible;
+}
+.desk-header {
+	visibility: hidden;
+}
+.img-lateral {
+	/*
+	background-image: url('../images/bg-lateral.png');
+	background-size: 100%;
+	height: 768px;
+	text-align: right;*/
+	background-image: url(../images/bg-lateral.png);
+/*     background-size: 463px; */
+	background-size: 100%;
+/*     height: 784px; */
+	height: 768px;
+    text-align: right;
+    background-repeat: no-repeat;
+}
+.img-space {
+ 	padding-top: 10%;
+ 	padding-right: 15%;
+}
+.container-information {
+	margin: 10%;
+}
+.title-main {
+	color: #0B2739;
+	font-size: 32px;
+/* 	font-family: Telefonica-Light; */
+	letter-spacing: 0px;
+	opacity: 1;
+	margin-bottom: 3%;
+}
+.base-boton-desktop {
+	display: table;
+	bottom: 0;
+	margin-top: 3%;
+}
+/*Fin inicio estilos desktop pantalla detalle proceso*/
+
+/* .desk-mobile { */
+/* 	display:none; */
+/* } */
+
+/*Inicio estilos desktop aviso foto c�dula*/
+.container-dashed {
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 2px dashed #019DF4;
+    width: 90%;
+    height: 300px;
+    margin: 33px 0%;
+    /* margin: 3% auto; */
+    border-radius: 16px;
+    opacity: 1;
+    padding: 20px;
+}
+.container-dashed-upload {
+	background: #019DF414 0% 0% no-repeat padding-box; 
+	border: 2px dashed #019DF4; 
+	width: 90%; 
+	height: 300px; 
+	margin: 3% 0%; 
+	border-radius: 16px; 
+	opacity: 1;
+}
+
+.change-container-dashed {
+/* 	background: #019DF414 0% 0% no-repeat padding-box; */
+	display: none;
+	background-color: orange;
+}
+.padding-0 {
+	padding-right:0;
+	padding-left:0;
+}
+.header-band {
+	background-color: #F5F5F5 ;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.header-band2 {
+    background-color: #F5F5F5;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10%;
+}
+.header-text {
+	/*padding-left: 82px;
+	width: 230px;
+	height: 20px;
+	text-align: left;
+	letter-spacing: 0px;
+	color: #50535A;
+	opacity: 1;*/
+	padding-left: 0;
+    width: 230px;
+    height: 20px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #50535A;
+    opacity: 1;
+}
+.container-information-notice-document {
+	margin: 2.5% 10%;
+}
+.container-information-notice-document2 {
+/* 	margin: 0px 90px; */
+}
+.title-main2 {
+	
+	/*color: #0B2739;
+	font-size: 30px;
+	font-family: Telefonica-Light;
+	letter-spacing: 0px;
+	opacity: 1;
+	margin-top: 25px;
+	margin-bottom: 2%;*/
+	color: #0B2739;
+    font-size: 32px;
+/*     font-family: Telefonica-Light; */
+    letter-spacing: 0px;
+    opacity: 1;
+    margin: auto;
+    padding: 25px 0px 21px 0px;
+    width: 100%;
+    max-width: 100%;
+}
+.base-texto-notice-document {
+	width: 80%;
+	display: table;
+	float: left;
+}
+.texto-notice-document{
+	/*margin: 0px;*/
+	margin: 0px auto;
+    padding: 10px 0px;
+    color: #86888C;
+    font-size: 16.4px;
+    width: 100%;
+    max-width: 100%;
+}
+.base-boton-notice-desktop {
+/* 	display: table; */
+/* 	bottom: 0; */
+/* 	margin-top: 4%; */
+	width: 100%;
+    bottom: 0;
+    margin-top: 24px;
+    margin-left: 39px;
+    margin: 24px auto 0px auto;
+}
+.text-front-back {
+	color: #0B2739;
+	font-size: 18px;
+/* 	font-family: Telefonica-Regular; */
+	letter-spacing: 0px;
+	margin-bottom: 2%
+}
+.text-subir-archivos {
+	color: #0B2739;
+	font-size: 16px;
+	font-family: Telefonica-Regular;
+	letter-spacing: 0px;
+}
+.ajustar-contenido {
+	margin: 18px 20px 20px 20px;
+}
+.base-cuadro {
+/* 	margin: 5%; */
+	width: 100%;
+	height: auto;	
+/* 	border: 1px solid #e63780; */
+	margin: 10px auto;
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+	
+}
+.img-document-front {
+/* 	border: 1px dashed #009578; */
+    width: 120px;
+    height:88px;
+    /*height: auto;*/
+    margin: 5px;
+    color: #cccccc;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+ }  
+.image-preview-front__image {
+	display: none;
+	width:100%;
+	height:88px;
+}
+.image-preview-back__image {
+	display: none;
+	width:100%;
+	height:88px;
+}
+
+
+.img-document-back {
+/* 	border: 1px dashed #009578; */
+    width: 120px;
+    height:88px;
+    /*height: auto;*/
+    margin: 5px;
+    color: #cccccc;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+.img-vo {
+	display: block;	
+}
+.img-vo2{
+	display: block;	
+}
+
+.file-search {
+	border: 1px dashed #009578;
+    color: #019DF4;
+	font-size: 16px;
+	font-family: Telefonica-Regular;
+	letter-spacing: 0px;
+    display: flex;
+    justify-content: center;
+  }
+
+.drop-zone__input {
+    display: none;
+  }
+  
+ .drop-zone__input2 {
+    display: none;
+  }
+.drop-zone--over {
+    border-style: dashed;
+    background-color: #D8D8D8;
+  }
+  
+.drop-zone--over2 {
+    border-style: dashed;
+    background-color: #D8D8D8;
+  }
+.drop-zone__thumb {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+/*     background-color: #cccccc; */
+    background-size: cover;
+    position: relative;
+  }
+.drop-zone__thumb::after {
+    content: attr(data-label);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px 0;
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.75);
+    font-size: 14px;
+    text-align: center;
+ }
+ 
+ .drop-zone--over2 {
+    border-style: dashed;
+  }
+.drop-zone__thumb2 {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+/*     background-color: #cccccc; */
+    background-size: cover;
+    position: relative;
+  }
+.drop-zone__thumb2::after {
+    content: attr(data-label);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px 0;
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.75);
+    font-size: 14px;
+    text-align: center;
+ }
+  
+.base-cuadro-upload {
+    margin: 5%;
+}
+.img-front {
+	margin-right: 15px;
+}
+.img-circle-error {
+	float: right; 
+	margin: 0px -13px;
+}
+.cuadros {
+	width: 85px;
+    height: 83px;
+    background: #D8D8D8 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+    margin: 0px 3%;
+    opacity: 1;
+    cursor: pointer;
+}
+.buscar-archivo {
+	color: #019DF4;
+	font-size: 16px;
+	font-family: Telefonica-Regular;
+	letter-spacing: 0px;
+}
+.buscar-archivo-error {
+	color: #019DF4;
+	font-size: 15px;
+	font-family: Telefonica-Regular;
+	letter-spacing: 0px;
+	margin-top: 50px;
+}
+.cargando-img {
+	width: 42px;
+	height: 10px;
+	background: #5CB615 0% 0% no-repeat padding-box;
+	border-radius: 5px;
+	opacity: 1;
+	margin-top: 73px;
+}
+.sin-cargando-img {
+	margin-top: 90px;
+}
+.cuadros-subiendo-before {
+	width: 100%;
+    background: #DCF1CE 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+}
+.cuadros-subiendo {
+	width: 85px;
+    height: 83px;
+    background: #D8D8D8 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+    margin: 0px 3%;
+    opacity: 1;
+    cursor: pointer;
+}
+.base-foto {
+	margin-left: 50px;
+}
+.text-foto {
+	color: #50535A;
+	font-size: 16px;
+	font-family: Telefonica-Regular;
+	letter-spacing: 0px;
+	margin: 10% 15%;
+}
+.text-cargando {
+	color: #50535A;
+	font-size: 16px;
+	font-family: Telefonica-Bold;
+	letter-spacing: 0px;
+	margin-top: 4%;
+}
+.text-tipo-archivo {
+	color: #E63780;
+	font-size: 16px;
+	font-family: Telefonica-Regular;
+	letter-spacing: 0px;
+	margin-bottom: 3%;
+}
+.text-tipo-archivo-error {
+	color: #E63780;
+	font-size: 15px;
+	font-family: Telefonica-Regular;
+	letter-spacing: 0px;
+	float: right;
+    margin: -22px -20px;
+}
+/*Fin estilos desktop aviso foto c�dula*/
+
+/*Inicio estilos desktop firma*/
+.container-dashed-firm {
+	background: #FFFFFF 0% 0% no-repeat padding-box; 
+	border: 2px solid #D3D4D3; 
+	width: 100%; 
+	height: 230px; 
+	margin: 3% 0%; 
+	border-radius: 16px; 
+	opacity: 1;
+}
+.base-boton-firm-desktop {
+	width: 100%;
+	display: table;
+	bottom: 0;
+	margin-top: 1%;
+}
+.boton-volver-intentar-firm {
+	width: 148px;
+	height: 40px;
+	float: left;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	border: 1px solid #E63780;
+	border-radius: 25px;
+	opacity: 1;
+}
+.text-volver-intentar-firm {
+	text-align: center;
+	letter-spacing: 0px;
+	color: #E63780;
+	opacity: 1;
+	font-size: 16px;
+	font-family: Telefonica-Regular;
+}
+.boton-confirmar-firm {
+	width: 116px;
+	height: 40px;
+	float: right;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	border: 1px solid #5CB615;
+	border-radius: 25px;
+	opacity: 1;
+}
+.text-confirmar-firm {
+	text-align: center;
+	letter-spacing: 0px;
+	color: #5CB615;
+	opacity: 1;
+	font-size: 16px;
+	font-family: Telefonica-Regular;
+}
+.base-recaptcha {
+	margin: 30px 0px;
+}
+#pizarra {
+    width: 100%; 
+	height: 155px;
+    background-color: white;
+/*     border: 1px solid green; */
+}
+.base-boton-firm {
+	width: 100%;
+	display: table;
+	text-align: center;
+}
+.boton-continuar-firm {
+	width: 100%;
+	height: 50px;
+	font-size: 18px;
+	color: #fff;
+	border: 2px solid #019DF4;
+	border-radius: 20px;
+	position: relative;
+	bottom: 0px;
+	background-color: #019DF4;
+	margin-bottom: 14px;
+	top: 0;
+}
+/*Fin estilos desktop firma*/
+
+/*Inicio ocultar div*/
+.hidden-div {
+	display: none;
+}
+/*Fin ocultar div*/
+
+/*Inicio mostrar div*/
+.show-div {
+	display: block;
+}
+/*Fin mostrar div*/
+
+/*Inicio estilos pantalla loading mask*/
+.loading {
+	width: 40px;
+	height: 40px;
+	transform: matrix(1, 0, 0, 1, 0, 0);
+	border: 4px dashed #019DF4;
+	opacity: 1;	
+}
+.center-div {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+    align-items: center;
+}
+.font-16px {
+	font-size: 16px;
+	font-family: Telefonica-Regular;
+	letter-spacing: 0px;
+	color: #50535A;
+	opacity: 1;
+}
+.border-div {
+	width: 100%;
+	border: 2px solid white;
+	height: 768px;
+}
+/*Fin estilos pantalla loading mask*/
+
+/*Inicio estilos front-reverse camara*/
+.border-camara-left-front-reverso {
+	width: 100px;
+	height: 63px;
+	border: 2px solid #E9EAE8;
+	border-radius: 8px;
+	opacity: 1;
+	float: right;
+	background-image: url(https://www.registraduria.gov.co/IMG/jpg/Cedula_atras2016.jpg);
+    background-size: 100%;
+}
+.border-camara-right-front-reverso {
+	width: 100px;
+	height: 63px;
+	border: 2px solid #E9EAE8;
+	border-radius: 8px;
+	opacity: 1;
+	background-image: url(https://www.registraduria.gov.co/IMG/jpg/cedula_frontal.jpg);
+    background-size: 100%;
+}
+/*Fin estilos front-reverse camara*/
+
+.inverso {
+	margin-top: -30px;
+}
+/*Clases nuevas*/
+.espacios_z1 {
+    margin: 14px 14px 12px 14px;
+}
+
+.name_bottom {
+    width: 58%;
+    text-align: center;
+}
+
+.ajust-flecha-derecha-small {
+    font-size: 21px;
+    margin-right: 14px;
+}
+
+.ajust-flecha-derecha-small2 {
+	font-size: 21px;
+    margin-right: 14px;
+    margin-left: 13px;
+}
+/*.icon-icono-flecha-izquierda-small {
+    font-size: 21px;
+    margin-left: 14px;
+    margin-right: 12px;
+}*/
+.ajust-flecha-izquierda-small {
+	font-size: 21px;
+    margin-left: 14px;
+    margin-right: 13px;
+}
+
+.footer-container2 {
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    max-width: 990px;
+    background-color: white;
+    margin: 160px auto 0 auto;
+}
+
+.footer-container3 {
+	box-shadow: 0px 0px 8px rgba(0,0,0,0.1);
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-color: white;
+}
+
+.container_informacion {
+    margin: auto;
+    max-width: 990px;
+}
+
+.border_gris {
+    border-bottom: 1px solid #0000001A;
+    border-top: 1px solid #0000001A;
+    border-right: 1px solid #0000001A;
+}
+
+.alinear_footer {
+    left: 0px;
+}
+
+.text-validation {
+	letter-spacing: 0px;
+	color: #e63780;
+	opacity: 1;
+	font-size: 12px;
+	margin: 0px 12px;
+}
+
+.invalidate-error {
+	width: 120px;
+	height: 88px;
+/*     height: auto; */
+	background: #FFFFFF 0% 0% no-repeat padding-box !important;
+	border: 1px solid #E63780 !important;
+	border-radius: 4px !important;
+	margin: 0px 10px;
+}
+
+.invalidate-error-canvas {
+	width: 100%;
+    height: 230px;
+	background: #FFFFFF 0% 0% no-repeat padding-box !important;
+	border: 1px solid #E63780 !important;
+	border-radius: 4px !important;
+	margin: 0px 10px;
+}
+
+.border-error {
+	border: 2px solid red;
+	width: 50%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+}
+
+/*Responsive*/
+
+@media only screen and (max-width: 2000px) {
+	.container-information-notice-document {
+			margin: 0px 10%;
+		}
+	.header-text {
+/* 	    padding-left: 120px; */
+		margin-left: 0;
+	}
+}
+
+@media only screen and (max-width: 1800px) {
+	.container-information-notice-document {
+		margin: 0px 10%;
+	}
+	.header-text {
+/* 	    padding-left: 110px; */
+		padding-left: 0px;
+	}
+}
+
+@media only screen and (max-width: 1600px) {
+	.container-information-notice-document {
+		margin: 0px 10%;
+	}
+	.header-text {
+/* 	    padding-left: 100px; */
+		padding-left: 0;
+	}
+}
+
+@media only screen and (max-width: 1440px) {
+	.container-information-notice-document {
+		margin: 0px 10%;
+	}
+	.header-text {
+/* 	    padding-left: 85px; */
+		padding-left: 0;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+/* 	.desk-mobile { */
+/* 		display: block; */
+/* 	} */
+	video {
+		max-width: 100%;
+	}
+}
+@media ( max-width : 424px) {
+	.movil-header {
+		padding: 0px 25px;
+	}
+	.desk {
+ 		visibility: hidden;
+	}
+	.desk-header {
+		visibility: visible;
+	}
+	.container-information {
+		margin: 0px 20px;
+	}
+	.title-main {
+		font-size: 27px;
+		margin-top: 20px;
+	}
+	.base_texto {
+		width:95%;
+	}
+	.texto {
+    	font-size: 16.5px;
+	}
+	button.boton {
+		width: 389px;
+		height: 46px;
+		font-size: 17px;
+	}
+	.base-boton-desktop {
+    	display: table;
+    	bottom: 0;
+    	margin-top: 45%;
+	}
+	.contenedor_principal {
+		width: 100%;
+		padding: 20px 25px;
+	}
+	.header-band {
+	    background-color: #FFF;
+	    padding-top: 0px;
+	    visibility: hidden;
+	    padding-bottom: 0px;
+	}
+	.padding-0 {
+    	padding-right: 15px;
+    	padding-left: 15px;
+	}
+	.container-information-notice-document {
+		margin: 0px;
+	}
+	.base-recaptcha {
+		display: flex;
+		justify-content: center;
+		margin: 20px 0px;
+	}
+	.texto-notice-document {
+	    font-size: 14.7px;
+	}
+}
+@media ( max-width : 414px) {
+	.desk {
+ 		visibility: hidden;
+	}
+	.desk-header {
+		visibility: visible;
+	}
+	.container-information {
+		margin: 0px;
+	}
+	.title-main {
+		font-size: 26px;
+		margin-top: 20px;
+	}
+	.base_texto {
+		width:95%;
+	}
+	.texto {
+    	font-size: 16.1px;
+	}
+	button.boton {
+		width: 380px;
+		height: 46px;
+		font-size: 17px;
+	}
+	.base-boton-desktop {
+    	display: table;
+    	bottom: 0;
+    	margin-top: 45%;
+	}
+	.contenedor_principal {
+		width: 100%;
+		padding: 20px 25px;
+	}
+	.base_boton_z1 {
+	    width: 0%;
+	}
+	.text-camara-anverso {
+    	font-size: 18px;
+	}
+	.texto-15 {
+    	font-size: 17px;
+	}
+	.container-information-notice-document {
+		margin: 0px 20px;
+	}
+	.title-main2 {
+    	font-size: 28px;
+    	margin-top: 20px;
+	}
+	.texto-notice-document {
+	    font-size: 14.3px;
+	}
+	.base-recaptcha {
+		display: flex;
+		justify-content: center;
+		margin: 20px 0px;
+	}
+	.header-band {
+	    background-color: #FFF;
+	    padding-top: 0px;
+	    visibility: hidden;
+	    padding-bottom: 0px;
+	}
+	.padding-0 {
+    	padding-right: 15px;
+    	padding-left: 15px;
+	}
+}
+
+@media ( max-width : 411px) {
+	.desk {
+ 		visibility: hidden;
+	}
+	.texto {
+    	font-size: 16px;
+	}
+	button.boton {
+    	width: 376px;
+    	height: 46px;
+    	font-size: 17px;
+	}
+	.texto-15 {
+    	font-size: 17px;
+	}
+	.texto-notice-document {
+    	font-size: 14.2px;
+	}
+}
+
+@media ( max-width : 400px) {
+	.desk {
+ 		visibility: hidden;
+	}
+	.texto {
+    	font-size: 15.5px;
+	}
+	button.boton {
+		width: 365px;
+		height: 46px;
+		font-size: 17px;
+	}
+	.texto-notice-document {
+    	font-size: 13.8px;
+	}
+}
+
+@media ( max-width : 380px) {
+	.desk {
+ 		visibility: hidden;
+	}
+	.texto {
+    	font-size: 14.6px;
+	}
+	button.boton {
+		width: 345px;
+		height: 46px;
+		font-size: 17px;
+	}
+	.title-main2 {
+    	font-size: 24px;
+    	margin-top: 20px;
+	}
+	.texto-notice-document {
+	    font-size: 13px;
+	}
+}
+
+@media ( max-width : 375px) {
+	.desk {
+ 		visibility: hidden;
+	}
+	.desk-header {
+		visibility: visible;
+	}
+	.container-information {
+		margin: 0px 20px;
+	}
+	.title-main {
+		font-size: 24px;
+		margin-top: 20px;
+	}
+	.base_texto {
+		width:95%;
+	}
+	.texto {
+    	font-size: 14.4px;
+	}
+	button.boton {
+		width: 340px;
+		height: 46px;
+		font-size: 17px;
+	}
+	.base-boton-desktop {
+    	display: table;
+    	bottom: 0;
+    	margin-top: 45%;
+	}
+	.titulo_principal {
+    	font-size: 20px;
+	}
+	.base_boton_z1 {
+	    width: 0%;
+	}
+	.contenedor_principal {
+		height: 550px;
+	}
+	.border-camara-confirmar-reverso {
+    	height: 195px;
+	}
+	.border-camara-confirmar-anverso {
+    	height: 195px;
+	}
+	.texto-15 {
+    	font-size: 16.6px;
+	}
+	.title-main2 {
+    	font-size: 26px;
+    	margin-top: 20px;
+	}
+	.texto-notice-document {
+	    font-size: 12.8px;
+	}
+}
+@media ( max-width : 360px) {
+	.desk {
+ 		visibility: hidden;
+	}
+	.desk-header {
+		visibility: visible;
+	}
+	.container-information {
+		margin: 0px 20px;
+	}
+	.title-main {
+		font-size: 22px;
+	}
+	.base_texto {
+		width:95%;
+	}
+	.texto {
+    	font-size: 13.7px;
+	}
+	button.boton {
+		width: 325px;
+		height: 46px;
+		font-size: 17px;
+	}
+	.base-boton-desktop {
+    	display: table;
+    	bottom: 0;
+    	margin-top: 45%;
+	}
+	.titulo_principal {
+    	font-size: 19px;
+	}
+	.base_boton_z1 {
+	    width: 0%;
+	}
+	.contenedor_principal {
+		height: 550px;
+	}
+	.border-camara-confirmar-reverso {
+    	height: 185px;
+	}
+	.border-camara-confirmar-anverso {
+    	height: 185px;
+	}
+	.titulo-15 {
+    	font-size: 21px;
+	}
+	.texto-15 {
+    	font-size: 15px;
+	}
+	.texto-notice-document {
+    	font-size: 12.2px;
+	}
+}
+@media ( max-width : 340px) {
+	.desk {
+ 		visibility: hidden;
+	}
+	.texto {
+    	font-size: 12.8px;
+	}
+	button.boton {
+		width: 305px;
+		height: 46px;
+		font-size: 17px;
+	}
+	.title-main2 {
+    	font-size: 24px;
+    	margin-top: 20px;
+	}
+	.texto-notice-document {
+    	font-size: 11.5px;
+	}
+}
+@media ( max-width : 320px) {
+	.desk-header {
+		visibility: visible;
+	}
+	.container-information {
+		margin: 0px 20px;
+	}
+	.title-main {
+		font-size: 20px;
+	}
+	.base_texto {
+		width:94%;
+	}
+	.texto {
+    	font-size: 11.7px;
+	}
+	.titulo_principal {
+    	font-size: 17px;
+	}
+	
+	button.boton {
+		width: 285px;
+		height: 46px;
+		font-size: 17px;
+	}
+	.base-boton-desktop {
+    	display: table;
+    	bottom: 0;
+    	margin-top: 45%;
+	}
+	.contenedor_principal {
+		height: 500px;
+	}
+	.text-camara-anverso {
+    	font-size: 16px;
+	}
+	.border-camara-confirmar-reverso {
+    	height: 155px;
+	}
+	.border-camara-confirmar-anverso {
+    	height: 155px;
+	}
+	.titulo-15 {
+    	font-size: 19px;
+	}
+	.texto-15 {
+    	font-size: 13px;
+	}
+	.title-main2 {
+    	font-size: 22px;
+    	margin-top: 20px;
+	}
+	.texto-notice-document {
+   	    font-size: 10.7px
+	}
+}
+
+
+
+

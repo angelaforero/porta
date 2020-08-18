@@ -1,0 +1,4 @@
+Bundle-Name: movistarec-portabilidad-web
+Bundle-SymbolicName: com.vass.movistar.ec.portabilidad.web
+Bundle-Version: 1.0.0
+Export-Package: com.vass.movistar.ec.portabilidad.web.command

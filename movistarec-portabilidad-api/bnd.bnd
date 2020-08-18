@@ -1,0 +1,6 @@
+Bundle-Name: movistarec-portabilidad-api
+Bundle-SymbolicName: com.vass.movistar.ec.portabilidad.api
+Bundle-Version: 1.0.0
+Export-Package: \
+	com.vass.movistar.ec.portabilidad.api.dto,\
+	com.vass.movistar.ec.portabilidad.api

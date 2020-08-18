@@ -1,0 +1,37 @@
+dependencies {
+	compileOnly group: "com.liferay.portal", name: "com.liferay.portal.kernel"
+	compileOnly group: "com.liferay.portal", name: "com.liferay.util.taglib"
+	compileOnly group: "org.osgi", name: "org.osgi.service.component.annotations"
+	compileOnly project (":modules:movistarec-portabilidad-api" )
+	compileOnly project (":modules:movistarec-util-api" )
+	
+	compileInclude group: 'com.itextpdf', name: 'kernel', version: '7.1.0'
+	compileInclude group: 'com.itextpdf', name: 'io', version: '7.1.0'
+	compileInclude group: 'com.itextpdf', name: 'layout', version: '7.1.0'
+	compileInclude group: 'com.itextpdf', name: 'forms', version: '7.1.0'
+	compileInclude group: 'com.itextpdf', name: 'pdfa', version: '7.1.0'
+	
+	// https://mvnrepository.com/artifact/org.bouncycastle/bcprov-jdk15on
+	compileInclude group: 'org.bouncycastle', name: 'bcprov-jdk15on', version: '1.49'
+	
+	// https://mvnrepository.com/artifact/org.bouncycastle/bcpkix-jdk15on
+	compileInclude group: 'org.bouncycastle', name: 'bcpkix-jdk15on', version: '1.49'
+			
+	//Slf4j has an unusual design (some might say a bad design, ahem). 
+	//It is an API bundle that depends on an implementation package, 
+	//namely org.slf4j.impl.
+
+	//You need to install an additional bundle that implements the Slf4j API
+	compileInclude group: 'org.slf4j', name: 'slf4j-simple', version: '1.7.13'
+	
+	compileInclude group: 'commons-net', name: 'commons-net', version: '3.6'
+	
+	compileInclude group: 'commons-io', name: 'commons-io', version: '2.6'
+		
+	// https://mvnrepository.com/artifact/com.liferay/com.liferay.dynamic.data.lists.api
+	compile group: 'com.liferay', name: 'com.liferay.dynamic.data.lists.api', version: '3.0.9'
+	
+	compile group: 'com.liferay', name: 'com.liferay.dynamic.data.mapping.api', version: '3.0.0'
+
+}
+
